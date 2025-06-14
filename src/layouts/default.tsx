@@ -1,7 +1,5 @@
 import { Link } from "@heroui/link";
 
-import { Head } from "./head";
-
 import { Navbar } from "@/components/navbar";
 
 export default function DefaultLayout({
@@ -11,7 +9,6 @@ export default function DefaultLayout({
 }) {
   return (
     <div className="relative flex flex-col h-screen">
-      <Head />
       <Navbar />
       <main className="container mx-auto max-w-7xl px-6 flex-grow pt-16">
         {children}
@@ -20,7 +17,7 @@ export default function DefaultLayout({
         <Link
           isExternal
           className="flex items-center gap-1 text-current"
-          href="https://www.heroui.com"
+          href="https://heroui.com"
           title="heroui.com homepage"
         >
           <span className="text-default-600">Powered by</span>
