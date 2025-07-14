@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Card,
@@ -27,9 +26,7 @@ import {
   Eye,
 } from "lucide-react";
 import { FaShippingFast } from "react-icons/fa";
-
 import { TiHome } from "react-icons/ti";
-import { RiShip2Fill } from "react-icons/ri";
 import { FaUserGear } from "react-icons/fa6";
 
 import DefaultLayout from "@/layouts/default";

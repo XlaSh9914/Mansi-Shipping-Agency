@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Card,
@@ -19,7 +18,6 @@ import {
 import { FaShippingFast } from "react-icons/fa";
 import { FaUserGear } from "react-icons/fa6";
 import { TiHome } from "react-icons/ti";
-import { FaHeartbeat } from "react-icons/fa";
 import { FaAmbulance } from "react-icons/fa";
 
 import DefaultLayout from "@/layouts/default";
@@ -115,7 +113,8 @@ export default function HealthcarePage() {
         "Our team is well-versed in drug control norms such as CDSCO, ADC, and FSSAI, ensuring full compliance with Indian and international healthcare standards.",
     },
     {
-      question: "Which areas in India do you serve for pharmaceutical logistics?",
+      question:
+        "Which areas in India do you serve for pharmaceutical logistics?",
       answer:
         "We operate from key hubs in Mumbai, Delhi, Gurgaon, Hyderabad, Bangalore, and Chennai, providing seamless logistics services across India.",
     },
@@ -159,9 +158,9 @@ export default function HealthcarePage() {
                   Precision Logistics for Healthcare
                 </h2>
                 <p className="text-lg text-blue-100 mb-6">
-                  Mansi Shipping Agency delivers tailored solutions for pharmaceuticals,
-                  biotech, and medical devices, ensuring compliance and efficiency
-                  across global supply chains.
+                  Mansi Shipping Agency delivers tailored solutions for
+                  pharmaceuticals, biotech, and medical devices, ensuring
+                  compliance and efficiency across global supply chains.
                 </p>
               </div>
               <div className="space-y-4 mb-8">
@@ -253,7 +252,8 @@ export default function HealthcarePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Pharmaceuticals, Biotech & Medical Devices – Precision, Compliance, Global
+              Pharmaceuticals, Biotech & Medical Devices – Precision,
+              Compliance, Global
             </h2>
             <div>
               <div className="bg-white rounded-3xl shadow p-8 md:p-12 border border-gray-100 hover:shadow-3xl transition-shadow duration-500">
@@ -268,7 +268,8 @@ export default function HealthcarePage() {
                         <span className="font-bold text-transparent bg-gradient-to-r from-blue-600 to-sky-400 bg-clip-text">
                           pharmaceutical, biotech, and medical device logistics
                         </span>
-                        , serving manufacturers and distributors with tailored solutions.
+                        , serving manufacturers and distributors with tailored
+                        solutions.
                       </p>
                     </div>
                   </div>
@@ -435,8 +436,9 @@ export default function HealthcarePage() {
             Need Precision Pharmaceutical Logistics?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Let Mansi Shipping Agency manage your pharmaceutical, biotech, and medical
-            device supply chain with tailored, compliant, and tech-driven solutions.
+            Let Mansi Shipping Agency manage your pharmaceutical, biotech, and
+            medical device supply chain with tailored, compliant, and
+            tech-driven solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

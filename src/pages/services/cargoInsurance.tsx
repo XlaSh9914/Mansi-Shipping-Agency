@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Card,
@@ -14,11 +13,11 @@ import {
   FileText,
   ShieldCheck,
   Globe,
-  Truck,
 } from "lucide-react";
-import { FaShippingFast, FaHandsHelping } from "react-icons/fa";
+import { FaHandsHelping } from "react-icons/fa";
 import { TiHome } from "react-icons/ti";
 import { FaUserGear } from "react-icons/fa6";
+
 import DefaultLayout from "@/layouts/default";
 
 export default function CargoInsurancePage() {
@@ -110,12 +109,14 @@ export default function CargoInsurancePage() {
         "Key parameters include transit route, cargo type, packaging, value, mode of transport, and specific risk coverage (ICC-A, ICC-B, or ICC-C) based on your needs.",
     },
     {
-      question: "Which areas in Tamil Nadu are you able to offer logistics services?",
+      question:
+        "Which areas in Tamil Nadu are you able to offer logistics services?",
       answer:
         "We provide logistics services in Chennai, Coimbatore, Madurai, Tiruchirappalli, and other key areas in Tamil Nadu.",
     },
     {
-      question: "In which areas do you provide freight forwarding logistics services in India?",
+      question:
+        "In which areas do you provide freight forwarding logistics services in India?",
       answer:
         "Our freight forwarding services cover major cities like Mumbai, Delhi, Bangalore, Chennai, Pune, and Kolkata.",
     },
@@ -150,7 +151,9 @@ export default function CargoInsurancePage() {
                   Protect Your Cargo, Secure Your Business
                 </h2>
                 <p className="text-lg text-blue-100 mb-6">
-                  Safeguard your shipments with Mansi Shipping Agency&apos;s tailored cargo insurance solutions, covering risks across global supply chains.
+                  Safeguard your shipments with Mansi Shipping Agency&apos;s
+                  tailored cargo insurance solutions, covering risks across
+                  global supply chains.
                 </p>
               </div>
               <div className="space-y-4 mb-8">
@@ -168,15 +171,11 @@ export default function CargoInsurancePage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-400" />
-                  <span className="text-blue-100">
-                    Expert Claim Assistance
-                  </span>
+                  <span className="text-blue-100">Expert Claim Assistance</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-green-400" />
-                  <span className="text-blue-100">
-                    Flexible Policy Options
-                  </span>
+                  <span className="text-blue-100">Flexible Policy Options</span>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -214,7 +213,9 @@ export default function CargoInsurancePage() {
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">194+</div>
-                    <div className="text-blue-100 text-sm">Countries Covered</div>
+                    <div className="text-blue-100 text-sm">
+                      Countries Covered
+                    </div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">100%</div>
@@ -226,7 +227,9 @@ export default function CargoInsurancePage() {
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">ICC</div>
-                    <div className="text-blue-100 text-sm">Coverage Options</div>
+                    <div className="text-blue-100 text-sm">
+                      Coverage Options
+                    </div>
                   </div>
                 </div>
               </div>
@@ -255,7 +258,8 @@ export default function CargoInsurancePage() {
                         <span className="font-bold text-transparent bg-gradient-to-r from-blue-600 to-sky-400 bg-clip-text">
                           comprehensive cargo insurance
                         </span>{" "}
-                        with all-risk policies covering most perils, except specific exclusions.
+                        with all-risk policies covering most perils, except
+                        specific exclusions.
                       </p>
                     </div>
                   </div>
@@ -269,7 +273,8 @@ export default function CargoInsurancePage() {
                         <span className="font-bold text-blue-600">
                           expert intermediaries
                         </span>{" "}
-                        assist in selecting the right policy and streamline claim processes for efficiency.
+                        assist in selecting the right policy and streamline
+                        claim processes for efficiency.
                       </p>
                     </div>
                   </div>
@@ -283,7 +288,8 @@ export default function CargoInsurancePage() {
                         <span className="font-bold text-blue-600">
                           194+ countries
                         </span>
-                        , we provide tailored insurance solutions for global import and export logistics.
+                        , we provide tailored insurance solutions for global
+                        import and export logistics.
                       </p>
                     </div>
                   </div>
@@ -305,7 +311,8 @@ export default function CargoInsurancePage() {
               Tailored Cargo Insurance for Your Needs
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              From single transit to turnover-based policies, our insurance services protect your cargo across the supply chain.
+              From single transit to turnover-based policies, our insurance
+              services protect your cargo across the supply chain.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -356,7 +363,8 @@ export default function CargoInsurancePage() {
               Reliable Cargo Insurance Solutions
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our tailored policies and expert support ensure your cargo is protected, no matter the destination.
+              Our tailored policies and expert support ensure your cargo is
+              protected, no matter the destination.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -391,7 +399,8 @@ export default function CargoInsurancePage() {
               Know More About Cargo Insurance
             </h2>
             <p className="text-lg text-gray-600">
-              Get answers to common questions about our cargo insurance services and coverage options.
+              Get answers to common questions about our cargo insurance services
+              and coverage options.
             </p>
           </div>
           <Accordion className="gap-4" variant="splitted">
@@ -418,7 +427,8 @@ export default function CargoInsurancePage() {
             Need Reliable Cargo Insurance?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Let Mansi Shipping Agency protect your shipments with tailored insurance solutions for global supply chains.
+            Let Mansi Shipping Agency protect your shipments with tailored
+            insurance solutions for global supply chains.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -449,7 +459,9 @@ export default function CargoInsurancePage() {
               <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <ShieldCheck className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-white font-semibold mb-2">All-Risk Policies</h3>
+              <h3 className="text-white font-semibold mb-2">
+                All-Risk Policies
+              </h3>
               <p className="text-blue-100 text-sm">Comprehensive Protection</p>
             </div>
             <div className="text-center">

@@ -27,7 +27,6 @@ import {
   BookUser,
   Briefcase,
 } from "lucide-react";
-import { FaShippingFast } from "react-icons/fa";
 import { FaHandsHelping } from "react-icons/fa";
 import { TiHome } from "react-icons/ti";
 import { FaUserGear } from "react-icons/fa6";

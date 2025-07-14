@@ -15,7 +15,6 @@ import { FaShippingFast } from "react-icons/fa";
 import { RiSecurePaymentFill } from "react-icons/ri";
 import { MdSpatialTracking } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
-import { Chip } from "@nextui-org/react";
 
 import CarouselComponent from "@/components/carouselComponent";
 import { siteConfig, services } from "@/config/site";

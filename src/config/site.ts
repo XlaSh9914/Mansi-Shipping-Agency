@@ -7,16 +7,6 @@ import { HiClipboardDocumentCheck } from "react-icons/hi2";
 import { FaPersonMilitaryPointing } from "react-icons/fa6";
 import { FaAmbulance } from "react-icons/fa";
 import { GiTeePipe } from "react-icons/gi";
-import { FaCarSide } from "react-icons/fa";
-import { FaGears } from "react-icons/fa6";
-import { GiClothes } from "react-icons/gi";
-import { FaTools } from "react-icons/fa";
-import { IoIosWarning } from "react-icons/io";
-import { MdOilBarrel } from "react-icons/md";
-import { MdEnergySavingsLeaf } from "react-icons/md";
-import { MdImportExport } from "react-icons/md";
-import { FaRoute } from "react-icons/fa";
-import { GrUserExpert } from "react-icons/gr";
 
 export type SiteConfig = typeof siteConfig;
 

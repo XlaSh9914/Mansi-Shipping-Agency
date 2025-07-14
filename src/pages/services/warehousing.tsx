@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Card,
@@ -21,9 +20,10 @@ import {
   BarChart,
   Globe,
 } from "lucide-react";
-import { FaShippingFast, FaHandsHelping } from "react-icons/fa";
+import { FaHandsHelping } from "react-icons/fa";
 import { TiHome } from "react-icons/ti";
 import { FaUserGear } from "react-icons/fa6";
+
 import DefaultLayout from "@/layouts/default";
 
 export default function StorageWarehousingPage() {
@@ -153,7 +153,8 @@ export default function StorageWarehousingPage() {
         "We provide logistics services in Chennai, Coimbatore, Madurai, Tiruchirappalli, and other key areas in Tamil Nadu.",
     },
     {
-      question: "Which areas in India do you provide freight forwarding logistics services?",
+      question:
+        "Which areas in India do you provide freight forwarding logistics services?",
       answer:
         "Our freight forwarding services cover major cities like Mumbai, Delhi, Bangalore, Chennai, Pune, and Kolkata.",
     },
@@ -170,9 +171,7 @@ export default function StorageWarehousingPage() {
   ];
 
   const breadcrumbTrail = [
-    { label: "Home", icon: <TiHome />, href:
-
- "/" },
+    { label: "Home", icon: <TiHome />, href: "/" },
     { label: "Services", icon: <FaUserGear />, href: "/services" },
     { label: "Storage & Warehousing", icon: <FaHandsHelping /> },
   ];
@@ -185,7 +184,7 @@ export default function StorageWarehousingPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-white">
               <div className="mb-6">
-                <Chip className="mb-4" color="primary"  variant="shadow">
+                <Chip className="mb-4" color="primary" variant="shadow">
                   Global Warehousing Solutions
                 </Chip>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -195,7 +194,9 @@ export default function StorageWarehousingPage() {
                   Efficient Storage for Seamless Supply Chains
                 </h2>
                 <p className="text-lg text-blue-100 mb-6">
-                  Optimize your logistics with Mansi Shipping Agency&apos;s global warehousing solutions, strategically located near airports and seaports.
+                  Optimize your logistics with Mansi Shipping Agency&apos;s
+                  global warehousing solutions, strategically located near
+                  airports and seaports.
                 </p>
               </div>
               <div className="space-y-4 mb-8">
@@ -252,14 +253,14 @@ export default function StorageWarehousingPage() {
                   <h3 className="text-white text-xl font-semibold mb-2">
                     Warehousing Solutions
                   </h3>
-                  <p className="text-blue-100">
-                    Secure & Efficient Storage
-                  </p>
+                  <p className="text-blue-100">Secure & Efficient Storage</p>
                 </div>
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">194+</div>
-                    <div className="text-blue-100 text-sm">Countries Served</div>
+                    <div className="text-blue-100 text-sm">
+                      Countries Served
+                    </div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">100%</div>
@@ -300,7 +301,8 @@ export default function StorageWarehousingPage() {
                         <span className="font-bold text-transparent bg-gradient-to-r from-blue-600 to-sky-400 bg-clip-text">
                           global warehousing solutions
                         </span>{" "}
-                        with strategically located facilities near airports and seaports, reducing logistics costs and delivery times.
+                        with strategically located facilities near airports and
+                        seaports, reducing logistics costs and delivery times.
                       </p>
                     </div>
                   </div>
@@ -314,7 +316,9 @@ export default function StorageWarehousingPage() {
                         <span className="font-bold text-blue-600">
                           advanced storage technologies
                         </span>{" "}
-                        include cold storage, bonded warehousing, and secure facilities with 24/7 surveillance for maximum protection.
+                        include cold storage, bonded warehousing, and secure
+                        facilities with 24/7 surveillance for maximum
+                        protection.
                       </p>
                     </div>
                   </div>
@@ -328,7 +332,9 @@ export default function StorageWarehousingPage() {
                         <span className="font-bold text-blue-600">
                           194+ countries
                         </span>
-                        , we provide tailored solutions for industries like fashion, automotive, and consumer goods, ensuring efficient supply chain management.
+                        , we provide tailored solutions for industries like
+                        fashion, automotive, and consumer goods, ensuring
+                        efficient supply chain management.
                       </p>
                     </div>
                   </div>
@@ -350,7 +356,8 @@ export default function StorageWarehousingPage() {
               Tailored Storage Solutions for Your Business
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              From receiving to dispatch, our warehousing services are designed to optimize your supply chain and reduce costs.
+              From receiving to dispatch, our warehousing services are designed
+              to optimize your supply chain and reduce costs.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -401,7 +408,8 @@ export default function StorageWarehousingPage() {
               Advanced Warehousing for Efficient Logistics
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our state-of-the-art facilities and expert team ensure secure, cost-effective, and reliable storage solutions.
+              Our state-of-the-art facilities and expert team ensure secure,
+              cost-effective, and reliable storage solutions.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -436,7 +444,8 @@ export default function StorageWarehousingPage() {
               Know More About Storage & Warehousing
             </h2>
             <p className="text-lg text-gray-600">
-              Get answers to common questions about our warehousing services, processes, and global capabilities.
+              Get answers to common questions about our warehousing services,
+              processes, and global capabilities.
             </p>
           </div>
           <Accordion className="gap-4" variant="splitted">
@@ -463,7 +472,8 @@ export default function StorageWarehousingPage() {
             Need Efficient Warehousing Solutions?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Let Mansi Shipping Agency manage your storage needs with secure, cost-effective, and global warehousing services.
+            Let Mansi Shipping Agency manage your storage needs with secure,
+            cost-effective, and global warehousing services.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
