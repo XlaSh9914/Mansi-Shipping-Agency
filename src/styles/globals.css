@@ -1,3 +1,206 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  /* background-color: #e8e8e8 !important; */
+}
+
+.pulse-gradient {
+  background: linear-gradient(135deg, #48d9ec, #5c85f6, #0546a8);
+  background-size: 300% 300%;
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes rocketLaunch {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  30% {
+    transform: translateY(-100%) translateX(100%) rotate(5deg);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(100%) translateX(-100%) rotate(5deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.rocket-hover {
+  transition: transform 0.3s ease;
+}
+
+.group:hover .rocket-hover {
+  animation: rocketLaunch 0.5s ease-in-out forwards;
+}
+
+@keyframes floatIcon {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-4px) scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.casual-float {
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.group:hover .casual-float {
+  animation: floatIcon 0.5s ease;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-slide {
+  animation: fadeSlideIn 0.5s ease forwards;
+}
+
+.text-default-400 {
+  color: black !important;
+}
+
+@keyframes scrollWords {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  10%,
+  90% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+.scrolling-words {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.scrolling-words span {
+  display: block;
+  animation: scrollWords 5s infinite ease-in-out;
+}
+
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scrollLeft 20s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scrollRight 20s linear infinite;
+}
+
+.perspective-wrapper {
+  perspective: 1000px;
+  perspective-origin: center;
+}
+
+.card {
+  transform-style: preserve-3d;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s ease;
+}
+
+.hover-card:hover {
+  transform: rotateY(10deg) rotateX(6deg) translateZ(20px);
+}
+
+/* Depth for inner elements */
+.translate-z-10 {
+  transform: translateZ(10px);
+}
+
+.translate-z-20 {
+  transform: translateZ(20px);
+}
+
+.translate-z-40 {
+  transform: translateZ(40px);
+}
+
+.translate-z-50 {
+  transform: translateZ(50px);
+}
+.translate-z-100 {
+  transform: translateZ(100px);
+}
+
+.button-hover:hover {
+  transform: translateZ(100px);
+  opacity: 1 !important;
+  transition: transform 0.3s ease;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.658) transparent;
+}
+
+@keyframes scrollUp {
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-50%); }
+}
