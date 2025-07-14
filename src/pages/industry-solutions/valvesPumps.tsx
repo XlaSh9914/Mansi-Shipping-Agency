@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Card,
@@ -114,7 +113,8 @@ export default function ValvesPumpsPage() {
         "Our integrated multimodal transportation model and flexible supply chain solutions ensure we adapt to the dynamic needs of the valves and pumps industry.",
     },
     {
-      question: "Which areas in India do you serve for valves and pumps logistics?",
+      question:
+        "Which areas in India do you serve for valves and pumps logistics?",
       answer:
         "We operate from key hubs in Coimbatore, Erode, Chennai, Bangalore, and Pune, providing seamless logistics services across India.",
     },
@@ -158,9 +158,9 @@ export default function ValvesPumpsPage() {
                   Flexible Logistics for Dynamic Industries
                 </h2>
                 <p className="text-lg text-blue-100 mb-6">
-                  Mansi Shipping Agency delivers tailored solutions for the valves and
-                  pumps industry, ensuring flexibility and efficiency across
-                  global supply chains.
+                  Mansi Shipping Agency delivers tailored solutions for the
+                  valves and pumps industry, ensuring flexibility and efficiency
+                  across global supply chains.
                 </p>
               </div>
               <div className="space-y-4 mb-8">
@@ -222,9 +222,7 @@ export default function ValvesPumpsPage() {
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">Global</div>
-                    <div className="text-blue-100 text-sm">
-                      Regions Served
-                    </div>
+                    <div className="text-blue-100 text-sm">Regions Served</div>
                   </div>
                   <div className="bg-white/10 rounded-lg p-4">
                     <div className="text-2xl font-bold text-white">20+</div>
@@ -267,7 +265,8 @@ export default function ValvesPumpsPage() {
                         <span className="font-bold text-transparent bg-gradient-to-r from-blue-600 to-sky-400 bg-clip-text">
                           valves and pumps logistics
                         </span>
-                        , serving manufacturers and distributors with tailored solutions.
+                        , serving manufacturers and distributors with tailored
+                        solutions.
                       </p>
                     </div>
                   </div>
@@ -281,7 +280,8 @@ export default function ValvesPumpsPage() {
                         <span className="font-bold text-blue-600">
                           integrated multimodal transportation model
                         </span>{" "}
-                        ensures flexibility to manage variations in supply and demand.
+                        ensures flexibility to manage variations in supply and
+                        demand.
                       </p>
                     </div>
                   </div>
@@ -293,7 +293,8 @@ export default function ValvesPumpsPage() {
                       <p className="text-xl text-gray-700 leading-relaxed">
                         With a{" "}
                         <span className="font-bold text-blue-600">
-                          global network including the Middle East, Canada, and African countries
+                          global network including the Middle East, Canada, and
+                          African countries
                         </span>
                         , we provide cutting-edge technology and 24/7 support
                         for your supply chain needs.
@@ -434,8 +435,8 @@ export default function ValvesPumpsPage() {
             Need Flexible Valves & Pumps Logistics?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Let Mansi Shipping Agency manage your valves and pumps supply chain with
-            tailored, flexible, and tech-driven solutions.
+            Let Mansi Shipping Agency manage your valves and pumps supply chain
+            with tailored, flexible, and tech-driven solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
