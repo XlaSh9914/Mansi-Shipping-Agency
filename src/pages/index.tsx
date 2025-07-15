@@ -26,10 +26,10 @@ export default function IndexPage() {
   const adj1 = ["Reliable", "Timely", "Global", "Efficient", "Scalable"];
   const adj2 = ["Shipping", "Trading ", "Global Supply", "Enterprises"];
   const images = [
-    "public/carosalImg1.webp",
-    "public/carosalImg2.webp",
-    "public/carosalImg3.webp",
-    "public/carosalImg4.webp",
+    "/carosalImg1.webp",
+    "/carosalImg2.webp",
+    "/carosalImg3.webp",
+    "/carosalImg4.webp",
   ];
   const [index1, setIndex1] = useState(0);
   const [index2, setIndex2] = useState(0);
@@ -144,7 +144,7 @@ export default function IndexPage() {
             <img
               alt="background"
               className="absolute -right-[10%] h-[105%] top-[-2.5%] mask-t-from-50%"
-              src="public/background0.webp"
+              src="/background0.webp"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#005cbe] md:from-50% from-40% to-transparent md:to-70% z-1" />
@@ -152,7 +152,7 @@ export default function IndexPage() {
             <img
               alt="background"
               className="absolute -right-[10%] h-[100%]"
-              src="public/background0A.png"
+              src="/background0A.png"
               style={{
                 filter: "drop-shadow(0 5px 10px rgba(0, 0, 0, 0.4))",
               }}
@@ -227,7 +227,7 @@ export default function IndexPage() {
             <img
               alt="countries"
               className="h-[3em] md:h-[5em] w-auto p-0 mr-2"
-              src="public/experienceIcon.png"
+              src="/experienceIcon.png"
             />
             <Divider orientation="vertical" />
             <div className="flex flex-col pl-4 w-[35vw] md:w-[10vw]">
@@ -241,7 +241,7 @@ export default function IndexPage() {
             <img
               alt="countries"
               className="h-[3em] md:h-[5em] w-auto p-0 mr-2"
-              src="public/countriesIcon.png"
+              src="/countriesIcon.png"
             />
             <Divider orientation="vertical" />
             <div className="flex flex-col pl-4 w-[35vw] md:w-[10vw]">
@@ -255,7 +255,7 @@ export default function IndexPage() {
             <img
               alt="countries"
               className="h-[3em] md:h-[5em] w-auto p-0 mr-2"
-              src="public/globalPartnerIcon.png"
+              src="/globalPartnerIcon.png"
             />
             <Divider orientation="vertical" />
             <div className="flex flex-col pl-4 w-[35vw] md:w-[10vw]">
@@ -297,7 +297,7 @@ export default function IndexPage() {
                 isZoomed
                 alt="Relaxing app background"
                 className="z-0"
-                src="/public/AEO.jpg"
+                src="/AEO.jpg"
               />
               <CardFooter className="absolute bg-primary/10 bottom-0 z-10 border-t-1 border-default-600">
                 <div className="flex flex-grow gap-2 items-center">
@@ -327,7 +327,7 @@ export default function IndexPage() {
                 isZoomed
                 alt="Relaxing app background"
                 className="z-0"
-                src="/public/realTimeTracking.jpg"
+                src="/realTimeTracking.jpg"
               />
               <CardFooter className="absolute bg-primary/10 bottom-0 z-10 border-t-1 border-default-600">
                 <div className="flex flex-grow gap-2 items-center">
@@ -357,7 +357,7 @@ export default function IndexPage() {
                 isZoomed
                 alt="Relaxing app background"
                 className="z-0"
-                src="/public/support.png"
+                src="/support.png"
               />
               <CardFooter className="absolute bg-primary/10 bottom-0 z-10 border-t-1 border-default-600">
                 <div className="flex flex-grow gap-2 items-center">
@@ -392,7 +392,7 @@ export default function IndexPage() {
                 isZoomed
                 alt="Relaxing app background"
                 className="z-0"
-                src="/public/fastDelivery.webp"
+                src="/fastDelivery.webp"
               />
               <CardFooter className="absolute bg-primary/10 bottom-0 z-10 border-t-1 border-default-600">
                 <div className="flex flex-grow gap-2 items-center">
@@ -422,7 +422,7 @@ export default function IndexPage() {
                 isZoomed
                 alt="Relaxing app background"
                 className="z-0"
-                src="/public/competitivePricing.png"
+                src="/competitivePricing.png"
               />
               <CardFooter className="absolute bg-primary/10 bottom-0 z-10 border-t-1 border-default-600">
                 <div className="flex flex-grow gap-2 items-center">
@@ -452,7 +452,7 @@ export default function IndexPage() {
                 isZoomed
                 alt="Relaxing app background"
                 className="z-0"
-                src="/public/dataSecurity.webp"
+                src="/dataSecurity.webp"
               />
               <CardFooter className="absolute bg-primary/10 bottom-0 z-10 border-t-1 border-default-600">
                 <div className="flex flex-grow gap-2 items-center">
