@@ -7,6 +7,13 @@ import { HiClipboardDocumentCheck } from "react-icons/hi2";
 import { FaPersonMilitaryPointing } from "react-icons/fa6";
 import { FaAmbulance } from "react-icons/fa";
 import { GiTeePipe } from "react-icons/gi";
+import { FaCarSide } from "react-icons/fa";
+import { FaGears } from "react-icons/fa6";
+import { GiClothes } from "react-icons/gi";
+import { TbCrane } from "react-icons/tb";
+import { GiChemicalTank } from "react-icons/gi";
+import { MdOilBarrel } from "react-icons/md";
+import { MdEnergySavingsLeaf } from "react-icons/md";
 
 export type SiteConfig = typeof siteConfig;
 
@@ -19,6 +26,10 @@ export const siteConfig = {
     {
       label: "Home",
       href: "/",
+    },
+    {
+      label: "Blogs",
+      href: "/blog",
     },
     // {
     //   label: "About Us",
@@ -77,41 +88,41 @@ export const siteConfig = {
           href: "/industry-solutions/valves-pumps",
           icon: GiTeePipe,
         },
-        // {
-        //   label: "Automotive",
-        //   href: "",
-        //   icon: FaCarSide,
-        // },
-        // {
-        //   label: "Engineering Industrial Products",
-        //   href: "",
-        //   icon: FaGears,
-        // },
-        // {
-        //   label: "Fashion & Retails",
-        //   href: "",
-        //   icon: GiClothes,
-        // },
-        // {
-        //   label: "Machinery & Equipment's",
-        //   href: "",
-        //   icon: FaTools,
-        // },
-        // {
-        //   label: "Dangerous Goods",
-        //   href: "",
-        //   icon: IoIosWarning,
-        // },
-        // {
-        //   label: "Oil And Gas",
-        //   href: "",
-        //   icon: MdOilBarrel,
-        // },
-        // {
-        //   label: "Green Energy",
-        //   href: "",
-        //   icon: MdEnergySavingsLeaf,
-        // },
+        {
+          label: "Automotive",
+          href: "/industry-solutions/automotive",
+          icon: FaCarSide,
+        },
+        {
+          label: "Engineering Industrial Products",
+          href: "/industry-solutions/engg-industrial-products",
+          icon: FaGears,
+        },
+        {
+          label: "Apparels & Textile",
+          href: "/industry-solutions/apparels-textile",
+          icon: GiClothes,
+        },
+        {
+          label: "Machinery & Equipment",
+          href: "/industry-solutions/machinery-equipment",
+          icon: TbCrane,
+        },
+        {
+          label: "Dangerous Goods",
+          href: "/industry-solutions/dangerous-goods",
+          icon: GiChemicalTank,
+        },
+        {
+          label: "Oil And Gas",
+          href: "/industry-solutions/oil-gas",
+          icon: MdOilBarrel,
+        },
+        {
+          label: "Green Energy",
+          href: "/industry-solutions/green-energy",
+          icon: MdEnergySavingsLeaf,
+        },
       ],
     },
     // {

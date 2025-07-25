@@ -25,7 +25,7 @@ export default function ContactUsPage() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<null | "success" | "error">(
-    null,
+    null
   );
 
   const handleInputChange = (e: { target: { name: any; value: any } }) => {
@@ -60,7 +60,7 @@ export default function ContactUsPage() {
       // In a real implementation, you would send the email here
       // Example with mailto (basic solution):
       const mailtoLink = `mailto:info@mansishipping.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
-        `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company}\nService Type: ${formData.serviceType}\n\nMessage:\n${formData.message}`,
+        `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company}\nService Type: ${formData.serviceType}\n\nMessage:\n${formData.message}`
       )}`;
 
       window.location.href = mailtoLink;
@@ -125,8 +125,9 @@ export default function ContactUsPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email Us</h3>
-                    <p className="text-gray-600">info@mansishipping.com</p>
-                    <p className="text-gray-600">sales@mansishipping.com</p>
+                    <p className="text-gray-600">
+                      bharat@mansishippingagency.com
+                    </p>
                   </div>
                 </div>
 
@@ -136,8 +137,7 @@ export default function ContactUsPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Call Us</h3>
-                    <p className="text-gray-600">+91 22 1234 5678</p>
-                    <p className="text-gray-600">+91 22 8765 4321</p>
+                    <p className="text-gray-600">+91 9820 5481 52</p>
                   </div>
                 </div>
 
@@ -148,11 +148,31 @@ export default function ContactUsPage() {
                   <div>
                     <h3 className="font-semibold text-gray-900">Visit Us</h3>
                     <p className="text-gray-600">
-                      123 Shipping Street
+                      Room No 5, Uma smruti chs ltd,
                       <br />
-                      Mumbai Port Area
+                      new maneklal estate, Ghatkopar west, Mumbai
                       <br />
-                      Mumbai, Maharashtra 400001
+                      400086
+                      <br />
+                      India
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="bg-blue-100 p-3 rounded-lg">
+                    <MapPin className="w-6 h-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">
+                      Principal place of Business
+                    </h3>
+                    <p className="text-gray-600">
+                      206, Broach Sadan, 84A Devji Ratanshi Street,
+                      <br />
+                      Masjid Bunder, Mumbai Suburban, Maharashtra,
+                      <br />
+                      400009
                       <br />
                       India
                     </p>

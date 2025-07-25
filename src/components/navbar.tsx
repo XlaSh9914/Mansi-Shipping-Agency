@@ -20,10 +20,14 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import { Listbox, ListboxItem } from "@heroui/listbox";
 
+import { useLoading } from "@/LoadingContext";
+import CustomLink from "@/components/customLink";
 import { siteConfig } from "@/config/site";
 import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
+  const { startLoading } = useLoading();
+
   return (
     <HeroUINavbar
       shouldHideOnScroll
@@ -48,9 +52,9 @@ export const Navbar = () => {
           {siteConfig.navItems.map((item) =>
             item.href ? (
               <NavbarItem key={item.href} className="flex p-2 font-[600]">
-                <Link className="text-[#003c7c]" href={item.href}>
+                <CustomLink className="text-[#003c7c]" to={item.href}>
                   {item.label}
-                </Link>
+                </CustomLink>
               </NavbarItem>
             ) : (
               <Dropdown key={item.label} showArrow>
@@ -79,24 +83,26 @@ export const Navbar = () => {
                       ? item.dropdownItem.map((dropdownItem, index) => (
                           <DropdownItem
                             key={dropdownItem.label}
-                            as="a"
+                            as="div"
                             className="hover:!bg-primary/15 p-3 transition-colors opacity-0 animate-fade-slide"
-                            href={dropdownItem.href}
-                            startContent={
-                              dropdownItem.icon ? (
-                                <dropdownItem.icon
-                                  className="casual-float"
-                                  color="#005cbe"
-                                  size={20}
-                                />
-                              ) : null
-                            }
                             style={{
                               animationDelay: `${index * 80}ms`,
                               transform: "translateX(20px)",
                             }}
                           >
-                            {dropdownItem.label}
+                            <CustomLink
+                              to={dropdownItem.href}
+                              className="flex items-center gap-2 text-[#003c7c]"
+                            >
+                              {dropdownItem.icon && (
+                                <dropdownItem.icon
+                                  className="casual-float"
+                                  color="#005cbe"
+                                  size={20}
+                                />
+                              )}
+                              {dropdownItem.label}
+                            </CustomLink>
                           </DropdownItem>
                         ))
                       : null}

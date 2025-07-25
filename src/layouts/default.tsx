@@ -20,7 +20,7 @@ export default function DefaultLayout({
   breadcrumbs?: Crumb[];
 }) {
   return (
-    <div className="relative flex flex-col">
+    <div id="start" className="relative flex flex-col">
       <Navbar />
       <main className="container mx-auto max-w-[85vw] flex-grow pt-8">
         <section className="hidden md:flex pb-6">

@@ -9,7 +9,7 @@ export const Logo: React.ElementType = ({
 }) => {
   return (
     <div className="flex absolute items-center gap-1" {...props}>
-      <img alt="logo" height={size * 45} src="./Logo.png" width={size * 40} />
+      <img alt="logo" height={size * 45} src="/Logo.png" width={size * 40} />
       <div
         className="font-bold text-inherit leading-tight"
         style={{ fontSize: `${size}rem` }}
