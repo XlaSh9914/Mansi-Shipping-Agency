@@ -1,30 +1,20 @@
-import React from "react";
-import {
-  Button,
-  Card,
-  CardBody,
-  CardHeader,
-  Chip,
-  Image,
-} from "@nextui-org/react";
-import { ArrowRight, Newspaper, Globe, ShieldCheck } from "lucide-react";
-import { FaShippingFast } from "react-icons/fa";
-import { FaUserGear } from "react-icons/fa6";
+import { Button, Card, CardBody, CardHeader, Chip } from "@nextui-org/react";
+import { Newspaper, Globe, ShieldCheck } from "lucide-react";
 import { FaClockRotateLeft } from "react-icons/fa6";
 import { TiHome } from "react-icons/ti";
 
 import DefaultLayout from "@/layouts/default";
 
 export default function BlogPage() {
-  const featuredPost = {
-    title: "Revolutionizing Logistics: The Future of Supply Chain Management",
-    excerpt:
-      "Explore how Mansi Shipping Agency is leveraging advanced technology to transform logistics for industries like oil and gas, aerospace, and green energy.",
-    date: "July 20, 2025",
-    author: "Ravi Sharma",
-    image: "https://via.placeholder.com/600x400?text=Logistics+Innovation",
-    slug: "/blog/revolutionizing-logistics",
-  };
+  // const featuredPost = {
+  //   title: "Revolutionizing Logistics: The Future of Supply Chain Management",
+  //   excerpt:
+  //     "Explore how Mansi Shipping Agency is leveraging advanced technology to transform logistics for industries like oil and gas, aerospace, and green energy.",
+  //   date: "July 20, 2025",
+  //   author: "Ravi Sharma",
+  //   image: "https://via.placeholder.com/600x400?text=Logistics+Innovation",
+  //   slug: "/blog/revolutionizing-logistics",
+  // };
 
   const recentPosts = [
     {
@@ -116,8 +106,8 @@ export default function BlogPage() {
                       </div>
                       <Button
                         className="bg-blue-600 text-white hover:bg-blue-700 font-semibold"
-                        size="sm"
                         href={post.slug}
+                        size="sm"
                       >
                         Read More
                       </Button>

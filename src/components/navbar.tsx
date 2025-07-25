@@ -20,14 +20,11 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import { Listbox, ListboxItem } from "@heroui/listbox";
 
-import { useLoading } from "@/LoadingContext";
 import CustomLink from "@/components/customLink";
 import { siteConfig } from "@/config/site";
 import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
-  const { startLoading } = useLoading();
-
   return (
     <HeroUINavbar
       shouldHideOnScroll
